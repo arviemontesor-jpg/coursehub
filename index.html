@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CourseHub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to CourseHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id="courses">
             <h2>Available Courses</h2>
-            <p>Find the best courses that suit your learning needs!</p>
+            <div class="course-list">
+                <!-- Interactive Course Cards go here -->
+            </div>
+        </section>
+        <section id="dashboard">
+            <h2>Your Dashboard</h2>
+            <div class="dashboard-content">
+                <!-- User Dashboard Features go here -->
+            </div>
+        </section>
+        <section id="about">
+            <h2>About CourseHub</h2>
+            <p>CourseHub is the leading platform for online learning!</p>
         </section>
     </main>
     <footer>
         <p>&copy; 2026 CourseHub. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
